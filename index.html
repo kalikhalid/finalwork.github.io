@@ -2,136 +2,34 @@
 <html>
 <head>
  <title>Меню кофейни</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <script src="https://telegram.org/js/telegram-web-app.js"></script>
- <style>
-  body {
-   font-family: Arial, sans-serif;
-   background-color: var(--tg-theme-bg-color);
-  }
-  h1 {
-   text-align: center;
-   margin-top: 50px;
-   color: #333333;
-  }
-  .menu-container {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   margin-top: 50px;
-  }
-  .menu-item {
-   background-color: var(--tg-theme-bg-color);
-   box-shadow: 0px 2px 4px #222222;
-   border-radius: 5px;
-   margin: 20px;
-   padding: 20px;
-   width: 300px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-  }
-  .menu-item img {
-   max-width: 100%;
-   height: auto;
-   margin-bottom: 20px;
-  }
-  .menu-item h2 {
-   font-size: 1.2em;
-   margin-bottom: 10px;
-   color: #333333;
-  }
-  .menu-item p {
-   font-size: 1em;
-   margin-bottom: 10px;
-   color: #666666;
-  }
-  .menu-item select {
-   margin-top: 20px;
-   width: 100%;
-   padding: 10px;
-   border-radius: 5px;
-   border: none;
-   background-color: #f2f2f2;
-   color: #333333;
-   font-size: 1em;
-  }
-  .menu-item button {
-   margin-top: 20px;
-   color: var(--tg-theme-button-text-color);
-   padding: 10px 20px;
-   border-radius: 5px;
-   border: none;
-   background-color: var(--tg-theme-button-color);
-   color: #ffffff;
-   font-size: 1em;
-   cursor: pointer;
-  }
-  .menu-item button:hover {
-   background-color: #555555;
-  }
- </style>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>Меню кофейни</h1>
+ <h1>Classic</h1>
  <div class="menu-container">
   <div class="menu-item">
-   <img src="https://via.placeholder.com/150" alt="Название товара">
-   <h2>Название товара</h2>
+   <h2>AMERICANO</h2>
    <p>Описание товара</p>
-   <select name="quantity">
-    <option value="1">1 шт.</option>
-    <option value="2">2 шт.</option>
-    <option value="3">3 шт.</option>
-   </select>
    <button type="button">Добавить в заказ</button>
   </div>
   <div class="menu-item">
-   <img src="https://via.placeholder.com/150" alt="Название товара">
-   <h2>Название товара</h2>
+   <h2>ESPRESSO</h2>
    <p>Описание товара</p>
-   <select name="quantity">
-    <option value="1">1 шт.</option>
-    <option value="2">2 шт.</option>
-    <option value="3">3 шт.</option>
-   </select>
    <button type="button">Добавить в заказ</button>
   </div>
   <div class="menu-item">
-    <img src="https://via.placeholder.com/150" alt="Название товара">
-    <h2>Название товара</h2>
+    <h2>CAPPUCCINO</h2>
     <p>Описание товара</p>
-    <select name="quantity">
-     <option value="1">1 шт.</option>
-     <option value="2">2 шт.</option>
-     <option value="3">3 шт.</option>
-    </select>
     <button type="button">Добавить в заказ</button>
    </div>
    <div class="menu-item">
-    <img src="https://via.placeholder.com/150" alt="Название товара">
-    <h2>Название товара</h2>
-    <p>Описание товара</p>
-    <select name="quantity">
-     <option value="1">1 шт.</option>
-     <option value="2">2 шт.</option>
-     <option value="3">3 шт.</option>
-    </select>
+    <h2>LATTE</h2>
+    <p>описание товара</p>
     <button type="button">Добавить в заказ</button>
    </div>
-   <div class="menu-item">
-    <img src="https://via.placeholder.com/150" alt="Название товара">
-    <h2>Название товара</h2>
-    <p>Описание товара</p>
-    <select name="quantity">
-     <option value="1">1 шт.</option>
-     <option value="2">2 шт.</option>
-     <option value="3">3 шт.</option>
-    </select>
-    <button type="button">Добавить в заказ</button>
-   </div>
- 
-
-  <!-- Добавьте здесь другие товары из меню -->
  </div>
 </body>
 </html>
