@@ -10,13 +10,14 @@ body {
     color: #333333;
    }
    .menu-container {
+    background-color: var(--tg-theme-bg-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
    }
    .menu-item {
-    background-color: var(--tg-theme-bg-color);
+    background-color: white;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
     border-radius: 5px;
     margin: 10px;
