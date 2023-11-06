@@ -10,7 +10,7 @@ let items = new Object();
 for(let i = 1; i < 5; i++){
 	let btn = document.getElementById(i.toString());
 	btn.addEventListener("click", () => {
-		tg.MainButton.setText("Сделать Заказ!");
+		tg.MainButton.setText(+"Зказать " + +(Object.keys(items).length) + +" товаров");
 		tg.MainButton.show();
 		if(Object.keys(items).includes(i.toString())){
   			items[i.toString()] += 1;
