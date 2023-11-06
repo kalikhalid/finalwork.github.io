@@ -1,7 +1,7 @@
-
 @import url('https://fonts.cdnfonts.com/css/typoster');
 body {
     font-family: 'Typoster', sans-serif;;
+    color: var(--tg-theme-text-color);
     background-color: var(--tg-theme-bg-color);
    }
    h1 {
@@ -40,17 +40,7 @@ body {
    .menu-item p {
     font-size: 1em;
     margin-bottom: 10px;
-    color: #666666;
-   }
-   .menu-item select {
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: #f2f2f2;
-    color: #333333;
-    font-size: 1em;
+    color: var(--tg-theme-hint-color);
    }
    .cafe_item {
     margin-top: 20px;
