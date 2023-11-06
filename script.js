@@ -5,18 +5,14 @@ tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#2cab37";
 tg.MainButton.hide();
 
-let items = new Object();
+let items = new String();
 
 for(let i = 1; i < 5; i++){
 	let btn = document.getElementById(i.toString());
 	btn.addEventListener("click", () => {
 		tg.MainButton.setText("Сделать Заказ!");
 		tg.MainButton.show();
-		if(Object.keys(items).includes(i.toString())){
-  			items[i.toString()] += 1;
-		}else{
-  			items[i.toString()] = 1;
-		}
+		items += i.toString() + " ";
 	});
 }
 console.log(items);
