@@ -6,8 +6,8 @@ body {
    }
    h1 {
     text-align: center;
+    color: var(--tg-theme-text-color);
     margin-top: 50px;
-    color: #333333;
    }
    .menu-container {
     background-color: var(--tg-theme-bg-color);
@@ -34,8 +34,8 @@ body {
    }
    .menu-item h2 {
     font-size: 1.2em;
+    color: var(--tg-theme-text-color);
     margin-bottom: 10px;
-    color: #333333;
    }
    .menu-item p {
     font-size: 1em;
