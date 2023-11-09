@@ -10,7 +10,8 @@ body {
     margin-top: 50px;
    }
    .menu-container {
-    background-color: var(--tg-theme-bg-color);
+    /*background-color: var(--tg-theme-bg-color);*/
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -49,7 +50,6 @@ body {
     border-radius: 5px;
     border: none;
     background-color: var(--tg-theme-button-color);
-    color: #ffffff;
     font-size: 1em;
     cursor: pointer;
    }

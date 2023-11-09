@@ -10,7 +10,7 @@ let items = new String();
 for(let i = 1; i < 5; i++){
 	let btn = document.getElementById(i.toString());
 	btn.addEventListener("click", () => {
-		tg.MainButton.setText(+"Зказать " + +(Object.keys(items).length) + +" товаров");
+		tg.MainButton.setText("Зказать " + (items.length));
 		tg.MainButton.show();
 		items += i.toString() + " ";
 	});
