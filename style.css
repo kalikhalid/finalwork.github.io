@@ -34,7 +34,7 @@ body {
    }
    .menu-item h2 {
     font-size: 1.2em;
-    color: var(--tg-theme-text-color);
+    color: black;
     margin-bottom: 10px;
    }
    .menu-item p {
