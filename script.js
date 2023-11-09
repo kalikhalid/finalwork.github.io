@@ -10,9 +10,9 @@ let items = new String();
 for(let i = 1; i < 5; i++){
 	let btn = document.getElementById(i.toString());
 	btn.addEventListener("click", () => {
-		tg.MainButton.setText("Зказать " + (items.length));
+		items += " " + i.toString();
+		tg.MainButton.setText("Зказать " + (items.length / 2));
 		tg.MainButton.show();
-		items += i.toString() + " ";
 	});
 }
 console.log(items);
